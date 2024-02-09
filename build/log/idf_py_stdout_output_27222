@@ -1,0 +1,45 @@
+-- Existing sdkconfig '/Users/austinhutchen/code/lab/sdkconfig' renamed to '/Users/austinhutchen/code/lab/sdkconfig.old'.
+-- Found Git: /usr/bin/git (found version "2.39.3 (Apple Git-145)") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/austinhutchen/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/austinhutchen/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/austinhutchen/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32c3
+-- Project sdkconfig file /Users/austinhutchen/code/lab/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/riscv/ld/rom.api.ld
+-- Found Python3: /Users/austinhutchen/.espressif/python_env/idf5.3_py3.11_env/bin/python (found version "3.11.7") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "hello_world" version: 8c25af7-dirty
+-- Adding linker script /Users/austinhutchen/code/lab/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script /Users/austinhutchen/esp/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table protobuf-c protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: /Users/austinhutchen/esp/esp-idf/components/app_trace /Users/austinhutchen/esp/esp-idf/components/app_update /Users/austinhutchen/esp/esp-idf/components/bootloader /Users/austinhutchen/esp/esp-idf/components/bootloader_support /Users/austinhutchen/esp/esp-idf/components/bt /Users/austinhutchen/esp/esp-idf/components/cmock /Users/austinhutchen/esp/esp-idf/components/console /Users/austinhutchen/esp/esp-idf/components/cxx /Users/austinhutchen/esp/esp-idf/components/driver /Users/austinhutchen/esp/esp-idf/components/efuse /Users/austinhutchen/esp/esp-idf/components/esp-tls /Users/austinhutchen/esp/esp-idf/components/esp_adc /Users/austinhutchen/esp/esp-idf/components/esp_app_format /Users/austinhutchen/esp/esp-idf/components/esp_bootloader_format /Users/austinhutchen/esp/esp-idf/components/esp_coex /Users/austinhutchen/esp/esp-idf/components/esp_common /Users/austinhutchen/esp/esp-idf/components/esp_driver_ana_cmpr /Users/austinhutchen/esp/esp-idf/components/esp_driver_dac /Users/austinhutchen/esp/esp-idf/components/esp_driver_gpio /Users/austinhutchen/esp/esp-idf/components/esp_driver_gptimer /Users/austinhutchen/esp/esp-idf/components/esp_driver_i2c /Users/austinhutchen/esp/esp-idf/components/esp_driver_i2s /Users/austinhutchen/esp/esp-idf/components/esp_driver_ledc /Users/austinhutchen/esp/esp-idf/components/esp_driver_mcpwm /Users/austinhutchen/esp/esp-idf/components/esp_driver_parlio /Users/austinhutchen/esp/esp-idf/components/esp_driver_pcnt /Users/austinhutchen/esp/esp-idf/components/esp_driver_rmt /Users/austinhutchen/esp/esp-idf/components/esp_driver_sdio /Users/austinhutchen/esp/esp-idf/components/esp_driver_sdm /Users/austinhutchen/esp/esp-idf/components/esp_driver_sdmmc /Users/austinhutchen/esp/esp-idf/components/esp_driver_sdspi /Users/austinhutchen/esp/esp-idf/components/esp_driver_spi /Users/austinhutchen/esp/esp-idf/components/esp_driver_tsens /Users/austinhutchen/esp/esp-idf/components/esp_driver_uart /Users/austinhutchen/esp/esp-idf/components/esp_driver_usb_serial_jtag /Users/austinhutchen/esp/esp-idf/components/esp_eth /Users/austinhutchen/esp/esp-idf/components/esp_event /Users/austinhutchen/esp/esp-idf/components/esp_gdbstub /Users/austinhutchen/esp/esp-idf/components/esp_hid /Users/austinhutchen/esp/esp-idf/components/esp_http_client /Users/austinhutchen/esp/esp-idf/components/esp_http_server /Users/austinhutchen/esp/esp-idf/components/esp_https_ota /Users/austinhutchen/esp/esp-idf/components/esp_https_server /Users/austinhutchen/esp/esp-idf/components/esp_hw_support /Users/austinhutchen/esp/esp-idf/components/esp_lcd /Users/austinhutchen/esp/esp-idf/components/esp_local_ctrl /Users/austinhutchen/esp/esp-idf/components/esp_mm /Users/austinhutchen/esp/esp-idf/components/esp_netif /Users/austinhutchen/esp/esp-idf/components/esp_netif_stack /Users/austinhutchen/esp/esp-idf/components/esp_partition /Users/austinhutchen/esp/esp-idf/components/esp_phy /Users/austinhutchen/esp/esp-idf/components/esp_pm /Users/austinhutchen/esp/esp-idf/components/esp_psram /Users/austinhutchen/esp/esp-idf/components/esp_ringbuf /Users/austinhutchen/esp/esp-idf/components/esp_rom /Users/austinhutchen/esp/esp-idf/components/esp_system /Users/austinhutchen/esp/esp-idf/components/esp_timer /Users/austinhutchen/esp/esp-idf/components/esp_wifi /Users/austinhutchen/esp/esp-idf/components/espcoredump /Users/austinhutchen/esp/esp-idf/components/esptool_py /Users/austinhutchen/esp/esp-idf/components/fatfs /Users/austinhutchen/esp/esp-idf/components/freertos /Users/austinhutchen/esp/esp-idf/components/hal /Users/austinhutchen/esp/esp-idf/components/heap /Users/austinhutchen/esp/esp-idf/components/http_parser /Users/austinhutchen/esp/esp-idf/components/idf_test /Users/austinhutchen/esp/esp-idf/components/ieee802154 /Users/austinhutchen/esp/esp-idf/components/json /Users/austinhutchen/esp/esp-idf/components/log /Users/austinhutchen/esp/esp-idf/components/lwip /Users/austinhutchen/esp/esp-idf/components/mbedtls /Users/austinhutchen/esp/esp-idf/components/mqtt /Users/austinhutchen/esp/esp-idf/components/newlib /Users/austinhutchen/esp/esp-idf/components/nvs_flash /Users/austinhutchen/esp/esp-idf/components/nvs_sec_provider /Users/austinhutchen/esp/esp-idf/components/openthread /Users/austinhutchen/esp/esp-idf/components/partition_table /Users/austinhutchen/esp/esp-idf/components/protobuf-c /Users/austinhutchen/esp/esp-idf/components/protocomm /Users/austinhutchen/esp/esp-idf/components/pthread /Users/austinhutchen/esp/esp-idf/components/riscv /Users/austinhutchen/esp/esp-idf/components/sdmmc /Users/austinhutchen/esp/esp-idf/components/soc /Users/austinhutchen/esp/esp-idf/components/spi_flash /Users/austinhutchen/esp/esp-idf/components/spiffs /Users/austinhutchen/esp/esp-idf/components/tcp_transport /Users/austinhutchen/esp/esp-idf/components/ulp /Users/austinhutchen/esp/esp-idf/components/unity /Users/austinhutchen/esp/esp-idf/components/usb /Users/austinhutchen/esp/esp-idf/components/vfs /Users/austinhutchen/esp/esp-idf/components/wear_levelling /Users/austinhutchen/esp/esp-idf/components/wifi_provisioning /Users/austinhutchen/esp/esp-idf/components/wpa_supplicant
+-- Configuring done (4.7s)
+-- Generating done (0.4s)
+-- Build files have been written to: /Users/austinhutchen/code/lab/build
